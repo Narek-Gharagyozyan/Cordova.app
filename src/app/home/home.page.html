@@ -1,0 +1,6 @@
+
+  <div class="main">
+    <div *ngFor="let c of col" class="block">
+      <div *ngFor="let r of row" class="item" (click)="changeColor($event)"></div>
+    </div>
+  </div>
